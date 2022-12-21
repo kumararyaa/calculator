@@ -1,0 +1,38 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    background-color: rgb(198, 209, 209);
+    /* width: 50%; */
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+    border-color:black;
+}
+.screen{
+    display: flex;
+    background-color: rgb(229, 241, 241);
+    margin-top: 10px;
+    height: 8vh;
+    width: 100%;
+    border-color:white;
+    /* border-radius: 10px; */
+    /* border:dashed; */
+}
+.button{
+    display: flex;
+    /* justify-content: center;
+     */
+    padding: 5px;
+    /* border: dashed; */
+    /* border-radius: 10px; */
+    /* background-color: cyan; */
+}
+@media(max-width:991px){
+   .box{
+       margin-left: 10%;
+       margin-right: 10%;
+   }
+}
